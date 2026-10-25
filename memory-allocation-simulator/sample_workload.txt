@@ -1,0 +1,19 @@
+# Sample workload for option 8 -> "Load from a file"
+# A <pid> <size in KB>   = allocate a process
+# F <pid>                = free (terminate) a process
+# Lines starting with # are comments.
+A 1 200
+A 2 150
+A 3 300
+A 4 100
+F 2
+F 4
+A 5 120
+A 6 80
+F 1
+A 7 250
+A 8 90
+F 3
+A 9 400
+A 10 60
+A 11 130
